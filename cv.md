@@ -91,3 +91,26 @@ public class Node<E> {
     }
 }
 ```
+
+***
+
+## Most Used Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=siskinbird&hide=css&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+***
+
+## Education 
+
+ * 2007-2009 Nursing faculty at Clara Zetkin [Moscow Medical College №2](https://med-info.ru/reference/view/562)
+ * 2011-2013 Emergency treatment and ambulance practice at [Moscow Medical College №3](https://medcollege7.ru/)
+ * 2019-2020 Junior Java Developer course by Petr Arsentev [job4j.ru](https://job4j.ru)
+ * 2021 Web-design skill enhancement course at [Plekhanov Russian University of Economics](https://www.rea.ru/)
+
+***
+
+## English 
+
+My English level is now - **A2**. I'am currently studying at Duolingo to improve my language skills.
+
+***
