@@ -28,27 +28,27 @@
                             <ul>
                                 <li>
                                     <button class="button">
-                                     <span>Summary</span>
+                                     <span><a href="#education">Education</a></span>                                     
                                     </button>
                                 </li>
                                 <li>
                                     <button class="button">
-                                    <span>Skills</span>
+                                    <span><a href="#skills">Skills</a></span>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="button">
-                                        <span>Code</span>
+                                        <span><a href="#code">Code</a></span>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="button">
-                                        <span>Education</span>
+                                        <span><a href="#experiens">Experiens</a></span>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="button">
-                                        <span>Contacts</span>
+                                        <span><a href="#contacts">Contacts</a></span>
                                     </button>
                                 </li>
                             </ul>
@@ -59,29 +59,89 @@
   
             </div>            
         </header>
-        <main class="main container">
-            <div class="main__body">
-                <div class="main__item">
-                    <h2>Summary</h2>
+        <main class="main">
+            <div class="main__body container">
+                <section id="summary" class="summary">
+                    <h2><u>Summary</u></h2>
                     <p>
                         Hello, my friend! Back in 2000, I got interested in programming, but then I was young and resisted the voice of my heart. Twenty years after,
                         having a completely different profession, increasing the degree of awareness, I recalled what I really wanted. And here I am now! For a year now,
                         I've been gaining knowledge and I really like it!
                         Every day I'm getting stronger, smarter and more promising! I'm sure I'll become a professional in this interesting and overwhelming sphere!
                     </p>
-                </div>
-                <div class="main__item">
-                    <h2>Education</h2>
+                </section>
+                <section id="education" class="education">
+                    <h2><u>Education</u></h2>
                     <ul>
-                        <li>2007-2009 Nursing faculty at Clara Zetkin <a href="https://med-info.ru/reference/view/562" target="_blank">Moscow Medical College №2</a></li>
-                        <li>2011-2013 Emergency treatment and ambulance practice at <a href="https://medcollege7.ru/" target="_blank">Moscow Medical College №3</a></li>
-                        <li>2019-2020 Junior Java Developer course by Petr Arsentev <a href="https://job4j.ru/" target="_blank">job4j.ru</a></li>
-                        <li>2021 Web-design skill enhancement course at <a href="https://www.rea.ru/">Plekhanov Russian University of Economics</a></li>
+                        <li><h3><b>2007-2009</b> Nursing faculty at Clara Zetkin <a href="https://med-info.ru/reference/view/562" target="_blank">Moscow Medical College №2</a></h3></li>
+                        <li><h3><b>2011-2013</b> Emergency treatment and ambulance practice at <a href="https://medcollege7.ru/" target="_blank">Moscow Medical College №3</a></h3></li>
+                        <li><h3><b>2019-2020</b> Junior Java Developer course by Petr Arsentev <a href="https://job4j.ru/" target="_blank">job4j.ru</a></h3></li>
+                        <li><h3><b>2021</b> Web-design skill enhancement course at <a href="https://www.rea.ru/">Plekhanov Russian University of Economics</a></h3></li>
                     </ul>
-                </div>
-                <div class="main__item"><h2>Skills</h2></div>
-                <div class="main__item"><h2>Code</h2></div>
-                <div class="main__item"><h2>Contacts</h2></div>
+                </section>
+                <section id="skills" class="skills">
+                    <h2><u>Skills</u></h2>
+                    <ul>
+                        <li><h3><b>HTML5</b> (Semantic)</h3></li>
+                        <li><h3><b>CSS</b> (Preprocessor SCSS, BEM methodology, Flexbox, Responsive layout)</h3></li>
+                        <li><h3><b>Java core</b> (Data structures and algorithms, input-output, PostgreSQL)</h3></li>
+                        <li><h3><b>Version control</b>: Git.</h3></li>
+                        <li><h3><b>Figma</b> (Creation of layouts for different resolutions)</h3></li>
+                        <li><h3><b>Editors</b>: VS Code</h3></li>
+                    </ul>
+                    
+                </section>
+                <section id="code" class="code container">
+                    <h2><u>Code</u></h2>
+                    <pre>
+                        <code>function fakeBin(x) {
+                            let arr = x.split('');
+                              for (let i = 0; i <= arr.length; i++){
+                                if (arr[i] < 5) {
+                                  arr[i] = 0;
+                                }
+                                if(arr[i] >= 5) {
+                                  arr[i] = 1;
+                                }
+                              }
+                              return arr.join('');
+                            }</code>
+                        </pre>
+                </section>
+                <section id="experiens" class="experiens1">
+                     <h2><u>Experiens</u></h2>
+                    <div class="experiens">
+                        <div class="project">
+                        <h3>My landing page: <br><a href="https://dmich.ru/">dmich.ru</a></h3>
+                        <div class="subtitle">
+                            <h4>Technologies used :</h4>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Responsive layout</li>
+                                <li>Flexbox</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>My first commercial project: <br><a href="https://metaform.ru/">metaform.ru</a></h3>
+                            <div class="subtitle">
+                            <h4>Technologies used :</h4>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>PhP</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Responsive layout</li>
+                                <li>Flexbox</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                <!-- </div> -->
+                </section>
+                
             </div>
         </main>
         <footer>
