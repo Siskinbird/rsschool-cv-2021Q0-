@@ -120,8 +120,9 @@ h3 {
  .header__body ul{
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 2px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
  .header__body li {
   margin: 10px;
@@ -144,6 +145,8 @@ h3 {
   z-index: -1;
 }
 
+/* TODO change absolute position (  box-shadow: 3px 3px red, -1em 0 .4em olive;) */
+
  .header__photo {
   position: absolute;
   left: 40px;
@@ -152,9 +155,8 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   z-index: 10;
+
  }
-
-
 
  .header__photo img{
   width: 100%;
@@ -255,16 +257,16 @@ h3 {
   margin: 0;
   margin-top: 20px;
 }
-.experiens {
+.experience {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 10px;
 }
-.experiens1 {
+.experience1 {
   padding: 10px;
 }
-.experiens ul li {
+.experience ul li {
   list-style:inside;
 }
 .project {
@@ -288,6 +290,52 @@ h3 {
   margin-top: 20px;
   align-items: left;
 }
+.english {
+  padding: 10px;
+}
+
+.contacts ul li {
+  list-style: inside;
+  margin-left: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  max-width: 100%;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: url("/images/background/bgpattern2.png") repeat;
+  box-shadow: 0px -6px 14px -5px rgba(0, 0, 51, 0.2);
+  color: #999999;
+}
+.footer span {
+  color: var(--red);
+}
+
+.footer__body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.social__item {
+  margin: 0 20px;
+  padding: 5px;
+  align-items: center;
+}
+.copyright {
+  margin: 6px 0;
+  padding: 2px;
+}
+
 
 
 @media(min-width: 1440px) {
@@ -321,7 +369,7 @@ h3 {
     top: 0;
     left: 30%;
   }
-  .experiens {
+  .experience {
     flex-direction: column;
   }
 
