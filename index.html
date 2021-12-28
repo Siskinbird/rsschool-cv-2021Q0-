@@ -1,1 +1,179 @@
-init: index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Front-end Developer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="header container">
+                <div class="header__content">
+                    <div class="header__photo">
+                           <!--  <div class="header__circle"></div> -->
+                        <img src="/images/hero/myPhoto.jpg" alt="Chizhov Dmitry Photo">
+                    </div>
+                    <div class="header__body">
+                        <div class="header__description">
+                            <h1><span>D</span>mitry <span>C</span>hizhov</h1>
+                            <h2>Front-end <span>dev</span>eloper</h2>
+                        </div>
+                        <nav class="header__menu">
+                            <ul>
+                                <li>
+                                    <button class="button">
+                                     <span><a href="#education">Education</a></span>                                     
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="button">
+                                    <span><a href="#skills">Skills</a></span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="button">
+                                        <span><a href="#code">Code</a></span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="button">
+                                        <span><a href="#experience">Experience</a></span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="button">
+                                        <span><a href="#contacts">Contacts</a></span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>            
+        </header>
+        <main class="main">
+            <div class="main__body container">
+                <section id="summary" class="summary">
+                    <h2><u>Summary</u></h2>
+                    <p>
+                        Hello, my friend! Back in 2000, I got interested in programming, but then I was young and resisted the voice of my heart. Twenty years after,
+                        having a completely different profession, increasing the degree of awareness, I recalled what I really wanted. And here I am now! For a year now,
+                        I've been gaining knowledge and I really like it!
+                        Every day I'm getting stronger, smarter and more promising! I'm sure I'll become a professional in this interesting and overwhelming sphere!
+                    </p>
+                </section>
+                <section id="education" class="education">
+                    <h2><u>Education</u></h2>
+                    <ul>
+                        <li><h3><b>2007-2009</b> Nursing faculty at Clara Zetkin <a href="https://med-info.ru/reference/view/562" target="_blank">Moscow Medical College №2</a></h3></li>
+                        <li><h3><b>2011-2013</b> Emergency treatment and ambulance practice at <a href="https://medcollege7.ru/" target="_blank">Moscow Medical College №3</a></h3></li>
+                        <li><h3><b>2019-2020</b> Junior Java Developer course by Petr Arsentev <a href="https://job4j.ru/" target="_blank">job4j.ru</a></h3></li>
+                        <li><h3><b>2021</b> Web-design skill enhancement course at <a href="https://www.rea.ru/">Plekhanov Russian University of Economics</a></h3></li>
+                    </ul>
+                </section>
+                <section id="skills" class="skills">
+                    <h2><u>Skills</u></h2>
+                    <ul>
+                        <li><h3><b>HTML5</b> (Semantic)</h3></li>
+                        <li><h3><b>CSS</b> (Preprocessor SCSS, BEM methodology, Flexbox, Responsive layout)</h3></li>
+                        <li><h3><b>Java core</b> (Data structures and algorithms, input-output, PostgreSQL)</h3></li>
+                        <li><h3><b>Version control</b>: Git.</h3></li>
+                        <li><h3><b>Figma</b> (Creation of layouts for different resolutions)</h3></li>
+                        <li><h3><b>Editors</b>: VS Code</h3></li>
+                    </ul>
+                </section>
+                <section id="code" class="code container">
+                    <h2><u>Code</u></h2>
+                    <pre>
+                        <code>function fakeBin(x) {
+                            let arr = x.split('');
+                              for (let i = 0; i <= arr.length; i++){
+                                if (arr[i] < 5) {
+                                  arr[i] = 0;
+                                }
+                                if(arr[i] >= 5) {
+                                  arr[i] = 1;
+                                }
+                              }
+                              return arr.join('');
+                            }</code>
+                        </pre>
+                </section>
+                <section id="experience" class="experience1">
+                     <h2><u>Experience</u></h2>
+                    <div class="experience">
+                        <div class="project">
+                        <h3>My landing page: <br><a href="https://dmich.ru/">dmich.ru</a></h3>
+                        <div class="subtitle">
+                            <h4>Technologies used :</h4>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Responsive layout</li>
+                                <li>Flexbox</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>My first commercial project: <br><a href="https://metaform.ru/">metaform.ru</a></h3>
+                            <div class="subtitle">
+                            <h4>Technologies used :</h4>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>PhP</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Responsive layout</li>
+                                <li>Flexbox</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <secton class="english">
+                    <h2>English</h2>
+                    <h3>My English level is now - <b>A2</b>. I'am currently studying at Duolingo to improve my language skills.</h3>
+                </secton>
+                <section id="contacts">
+                    <div class="contacts container">
+                    <h2><u>Contacts</u></h2>
+                    <ul>
+                        <li><b>Phone: </b><a href="tel:+79253080768">Call me</a></li>
+                        <li><b>E-mail: </b><a href="mailto:dimachig@mgmail.com">Mail me</a></li>
+                        <li><b>LinkedIn: </b><a href="https://www.linkedin.com/in/drchig/">Dmitry Chizhov</a></li>
+                        <li><b>GitHub: </b><a href="https://github.com/Siskinbird">Dmitry Chizhov</a></li>
+                        <li><b>CodePen: </b><a href="https://codepen.io/Siskinbird">My Codepen</a></li>
+                        <li><b>Discord: </b>Siskin#1408</li>
+                        <li><b>CodeWard: </b><a href="https://www.codewars.com/users/Siskinbird">My CodeWard</a></li>
+                        <li><b>Address:</b><address>Khimki, Moscow region. Russia.</address></li>
+                    </ul>
+                </div>
+                </section>                
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__body container">
+                <div class="social">
+                    <div class="social__item">
+                        <a href="https://github.com/Siskinbird"><img src="/images/social/git.png" alt="GitHub link" width="90px" height="40px"></a>
+                    </div>
+                    <div class="social__item">
+                        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school-js" width="120px" height="45px"></a>
+                    </div>
+                    <div class="social__item">
+                        <a href="https://www.linkedin.com/in/drchig/"><img src="/images/social/linkedin.png" alt="Linkedin" width="166" height="46px"></a>
+                    </div>
+                </div>
+                <div class="copyright"> <span><b>D</span>mitry <span>C</span>hizhov 20<span>21</span></b></div>                
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
