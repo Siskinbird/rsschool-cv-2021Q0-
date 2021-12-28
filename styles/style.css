@@ -94,7 +94,7 @@ h3 {
 
 #header {
   max-width: 100%;
-  background: url("/images/background/bgpattern2.png") repeat;
+  background: url("../images/background/bgpattern2.png") repeat;
   box-shadow: 0px 6px 14px -5px rgba(0, 0, 51, 0.2);
   color: white;
 }
@@ -304,7 +304,7 @@ h3 {
   font-size: 1.6em;
   font-weight: 500;
   text-transform: uppercase;
-  background: url("/images/background/bgpattern2.png") repeat;
+  background: url("../images/background/bgpattern2.png") repeat;
   box-shadow: 0px -6px 14px -5px rgba(0, 0, 51, 0.2);
   color: #999999;
 }
